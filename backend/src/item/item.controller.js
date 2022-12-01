@@ -1,7 +1,13 @@
 const findAll = (req, res) => {
-    res.send("FindAll");
+    const itens = [];
+    res.send(itens);
+};
+
+const findById = (req, res) => {
+        
 };
 
 module.exports = {
     findAll,
+    findById,
 };
