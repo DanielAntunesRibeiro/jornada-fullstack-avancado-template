@@ -1,7 +1,7 @@
 const { isObjectIdValid } = require("../db/database.helper");
 
 const findAll = (req, res) => {
-    const itens = [];
+    const itens = service.findAll();
     res.send(itens);
 };
 
