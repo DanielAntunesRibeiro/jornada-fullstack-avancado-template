@@ -23,6 +23,7 @@ async function main() {
 
   // Inicialização dos `Routers`
   app.use("/item", itemRouter);
+  app.use("/category", categoryRouter);
 
   // Inicia o servidor
   app.listen(port, () => {
