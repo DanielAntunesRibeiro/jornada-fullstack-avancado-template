@@ -4,6 +4,7 @@ const cors = require("cors");
 
 //Import dos Routers
 const itemRouter = require("./item/item.router");
+const categoryRouter = require("./category/category.router");
 
 // Porta do servidor
 const port = process.env.PORT || 3000;
