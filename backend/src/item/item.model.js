@@ -7,7 +7,7 @@ const itemSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         require: true,
         ref: "Category",
-    }
+    },
 });
 
 const Item = mongoose.model("Item", itemSchema);
